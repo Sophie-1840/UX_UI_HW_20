@@ -1,0 +1,119 @@
+.inline-block {
+    display: inline-block;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+
+header {
+    height: 100px;
+    background-color: rgb(182, 174, 255);
+    justify-items: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+body {
+    height: 500px;
+    background-color: rgb(21, 29, 99);
+}
+
+.content {
+    padding-inline-start: 60px;
+}
+
+nav ul {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.content {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(182, 174, 255);
+    padding: 15px;
+    margin: 15px;
+    width: 180px;
+    text-align: center;
+    color: Black;
+    outline: 1px solid rgb(21, 29, 99);
+}
+
+footer {
+    background-color: rgb(182, 174, 255);
+}
+
+.content img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 32px;
+    font-family:'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#signature {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Send Flowers', cursive;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .inline-block {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+}
